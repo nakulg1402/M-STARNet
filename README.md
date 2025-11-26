@@ -17,4 +17,4 @@ subject-dependent and 92.55% in subject independent scenarios. This per-
 formance demonstrates improved generalization across multiple emotion
 states and highlights the potential of the proposed framework to support
 the development of reliable affect-based systems.
-The code is accessible at: github.com/nakulg1402/M-STARNet
+The code is accessible at: https://github.com/nakulg1402/M-STARNet
