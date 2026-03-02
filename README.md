@@ -1,20 +1,4 @@
 # M-STARNet
-Emotion recognition is essential for brain-computer interac-
-tions (BCIs) and affective computing, enabling machines to interpret and
-respond to human emotions for more natural and effective interaction. Al-
-though existing methods perform well, their multi-class emotion classifica-
-tion accuracy remains limited. This paper presents a multimodal spatio-
-temporal attentive representation network (M-STARNet) for the classifi-
-cation of human emotions. The proposed architecture employs electroen-
-cephalogram (EEG) and electrooculogram (EOG) signals from the pub-
-licly available SEED VII dataset. Transformer encoders with positional
-encodings (PE) are used to extract spatio-temporal and ocular features.
-These features are then stacked and passed through the random modality
-dropout module to reduce modality-specific bias and improve multimodal
-cross-subject emotion classification. M-STARNet achieves substantially
-higher multi-class accuracy than existing methods, attaining 54.68% in
-subject-dependent and 92.55% in subject independent scenarios. This per-
-formance demonstrates improved generalization across multiple emotion
-states and highlights the potential of the proposed framework to support
-the development of reliable affect-based systems.
-The code is accessible at: https://github.com/nakulg1402/M-STARNet
+Emotion recognition is crucial to brain-computer interfaces (BCIs) and affective computing systems. It enables machines to perceive and respond to human emotions, resulting in more natural and successful interactions. Although current approaches work well, their multi-class emotion categorization accuracy is restricted. This research describes a multimodal spatio-temporal attentive representation network (M-STARNet) for classifying human emotions. The proposed architecture makes use of electroencephalogram (EEG) and electrooculogram (EOG) signals from the publicly available SEED VII dataset. Spatio-temporal and ocular characteristics are extracted using transformer encoders with positional encodings (PE). These features are then layered and sent into the random modality dropout module, which reduces modality-specific bias and improves multimodal cross-subject emotion classification. M-STARNet outperforms previous approaches in multi-class accuracy, achieving 54.68% in cross-subject and 92.55% in subject-dependent case scenarios. This result exhibits increased generalization across many emotion states, highlighting the suggested framework’s potential to help construct dependable affect-based systems. 
+
+The code is available at https://github.com/nakulg1402/M-STARNet.
