@@ -185,7 +185,7 @@ if __name__ == '__main__':
     all_y_pred_concat = np.concatenate(all_y_pred)
     overall_cm = confusion_matrix(all_y_true_concat, all_y_pred_concat)
     plt.figure(figsize=(8, 6))
-    sns.heatmap(overall_cm, annot=True, fmt='d', cmap='Blues', xticklabels=class_names, yticklabels=class_names)
+    sns.heatmap(overall_cm, annot=True, fmt='d', cmap='Blues')
     plt.title('Overall Confusion Matrix')
     plt.ylabel('True Label')
     plt.xlabel('Predicted Label')
@@ -195,7 +195,7 @@ if __name__ == '__main__':
     # Overall Confusion Matrix (percentages)
     cm_percent = overall_cm.astype('float') / overall_cm.sum(axis=1)[:, np.newaxis] * 100
     plt.figure(figsize=(8, 6))
-    sns.heatmap(cm_percent, annot=True, fmt='.2f', cmap='Blues', cbar_kws={'format': '%.0f%%'}, xticklabels=class_names, yticklabels=class_names)
+    sns.heatmap(cm_percent, annot=True, fmt='.2f', cmap='Blues', cbar_kws={'format': '%.0f%%'})
     plt.title('Overall Confusion Matrix (Percentages)')
     plt.ylabel('True Label')
     plt.xlabel('Predicted Label')
