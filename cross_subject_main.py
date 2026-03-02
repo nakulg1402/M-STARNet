@@ -34,7 +34,7 @@ FEATURE_DIM = 256
 NUM_CLASSES = 7
 
 if __name__ == '__main__':
-    locs_path = "/home/nakul_g/Downloads/CODE SEED VII/channel_62_pos.locs"
+    locs_path = "/.../channel_62_pos.locs"
     
     all_spatial_grids, all_temporal_raw, all_eye_raw, all_labels = load_all_data(locs_path)
 
