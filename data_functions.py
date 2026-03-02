@@ -299,8 +299,6 @@ emotion_to_int = {
     'Happy': 0, 'Neutral': 1, 'Disgust': 2, 'Sad': 3, 'Anger': 4, 'Fear': 5, 'Surprise': 6
 }
 
-class_names = [emotion for emotion, idx in sorted(emotion_to_int.items(), key=lambda x: x[1])]
-
 def make_batches(data, batch_size):
     N = data.shape[0]
 
